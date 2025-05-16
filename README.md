@@ -17,7 +17,7 @@ Welcome to the repository for my personal blog, powered by [Jekyll](https://jeky
 - [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
 - [Git](https://git-scm.com/)
 
-On AnduinOS (or other Debian-based systems), install dependencies:
+On AnduinOS (or other Debian-based systems), install dependencies:-
 ```bash
 sudo apt update
 sudo apt install ruby ruby-dev build-essential zlib1g-dev git
