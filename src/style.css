@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #211f20;
+    font-family: poppins, sans-serif;
+}
+
+#main-nav {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    gap: 20px;
+}
+
+.logo, .links, .github-logo {
+    width: 33.33%;
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    color: #b0aeaf;
+}
+
+.logo span {
+    color: #edebec;
+    font-weight: bold;
+}
+
+.links {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.links a {
+    color: #b0aeaf;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.github-logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.github-logo img {
+    height: 43px;
+}
