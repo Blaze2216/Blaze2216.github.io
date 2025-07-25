@@ -13,15 +13,16 @@
 <body>
     <header>
         <nav id="main-nav">
-            <div class="logo">
+            <div class="logo nav-item">
                 <h2><span>Tarun</span>Kumar</h2>
             </div>
-            <ul class="links">
+            <ul class="links nav-item">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="github-logo">
+            <div class="github-logo nav-item">
                 <a href="https://github.com/Blaze2216" aria-label="GitHub Profile">
                     <img src="assets/images/github-mark-white.svg" alt="GitHub" width="43" height="43">
                 </a>
@@ -40,6 +41,157 @@
                 <img src="assets/images/hero-image.png" alt="Tarun Kumar - Creative Developer" width="400" height="450">
             </div>
         </section>
+
+        <!-- About Section -->
+        <section class="about fade-in" id="about">
+            <div class="container">
+                <h2 class="scale-in">About Me</h2>
+                <div class="about-content fade-in">
+                    <div class="about-text">
+                        <p>I'm an aspiring developer with a passion for learning and building solutions. I enjoy exploring different areas of programming and technology, from system-level programming to creating web interfaces.</p>
+                        <p>I enjoy working with clean code, learning new technologies, and building projects that solve real-world problems. Currently expanding my programming skills across different domains and platforms.</p>
+                        <div class="stats">
+                            <div class="stat scale-in">
+                                <h3>Learning</h3>
+                                <p>Programming</p>
+                            </div>
+                            <div class="stat scale-in">
+                                <h3>1</h3>
+                                <p>Portfolio Project</p>
+                            </div>
+                            <div class="stat scale-in">
+                                <h3>Growing</h3>
+                                <p>Every Day</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills fade-in" id="skills">
+            <div class="container">
+                <h2 class="scale-in">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category fade-in">
+                        <h3>Web Technologies</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">HTML5</span>
+                            <span class="skill-item">CSS3</span>
+                            <span class="skill-item">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in">
+                        <h3>Programming</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">C Language</span>
+                            <span class="skill-item">CLI</span>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in">
+                        <h3>Tools & Platforms</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Git</span>
+                            <span class="skill-item">GitHub</span>
+                            <span class="skill-item">Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects fade-in">
+            <div class="container">
+                <h2 class="scale-in">My Work</h2>
+                <div class="projects-grid">
+                    <div class="project-card slide-in-left">
+                        <div class="project-image">
+                            <div class="project-placeholder">Portfolio Website</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Personal Portfolio</h3>
+                            <p>A responsive personal portfolio website built from scratch using modern web technologies. Features clean design, smooth animations, and optimized performance.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://blaze2216.github.io" class="btn-secondary">Live Site</a>
+                                <a href="https://github.com/Blaze2216/Blaze2216.github.io" class="btn-outline">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card upcoming slide-in-right">
+                        <div class="project-image">
+                            <div class="project-placeholder">Coming Soon</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Future Projects</h3>
+                            <p>I'm currently working on expanding my portfolio with more exciting projects. Stay tuned for updates as I continue learning and building!</p>
+                            <div class="project-tech">
+                                <span>In Development</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="btn-outline">Get Updates</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact fade-in" id="contact">
+            <div class="container">
+                <h2 class="scale-in">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info slide-in-left">
+                        <h3>Let's work together!</h3>
+                        <p>I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <h4>Email</h4>
+                                <p>tarun@example.com</p>
+                            </div>
+                            <div class="contact-method">
+                                <h4>Social</h4>
+                                <div class="social-links">
+                                    <a href="https://github.com/Blaze2216">GitHub</a>
+                                    <a href="#">LinkedIn</a>
+                                    <a href="#">Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form slide-in-right">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tarun Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="src/script.js"></script>
 </body>
 </html>
