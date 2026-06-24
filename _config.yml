@@ -2,16 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Your Name
-first_name: Your
-last_name: Name
-greeting: "Hi, I'm Your Name!"
+title: Tarun Kumar Maharana
+first_name: Tarun
+last_name: Maharana
+greeting: "Hi, I'm Tarun Kumar Maharana!"
 tagline: "Just a programmer"
-email: your-email@example.com
+email: tarunkumar@mtarunk.site
 
 description: >- # the ">" symbol means to ignore newlines
   Personal blog - A programmer sharing thoughts on software development,
-  Python, and web technologies.
+  Java, and operating systems.
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>.
@@ -20,16 +20,16 @@ footer_text: >
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: "https://alihtt.github.io" # the base hostname & protocol for your site
-baseurl: "/al-minimal" # the subpath of your site, e.g. /blog/. Leave blank for root
+url: "https://blaze2216.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
 
 # -----------------------------------------------------------------------------
 # About
 # -----------------------------------------------------------------------------
 
 about: >-
-  I'm a programmer passionate about Python & Django.
-  I build efficient web applications and share my knowledge through this blog.
+  I'm a student passionate about Java and Linux.
+  Currently focusing on system programming, automation, and clean terminal configurations.
 
 # -----------------------------------------------------------------------------
 # Social Media
@@ -37,19 +37,19 @@ about: >-
 
 social:
   - icon: fa-brands fa-github
-    link: https://github.com/yourusername
+    link: https://github.com/Blaze2216
     name: GitHub
   - icon: fa-brands fa-x-twitter
-    link: https://twitter.com/your_twitter
+    link: https://twitter.com/tarunkumar2216
     name: Twitter / X
   - icon: fa-brands fa-linkedin
-    link: https://linkedin.com/in/your_linkedin
+    link: https://linkedin.com/in/tarun-kumar-maharana
     name: LinkedIn
   - icon: fa-brands fa-telegram
-    link: https://t.me/your_telegram
+    link: https://t.me/usr_blaze
     name: Telegram
   - icon: fa-solid fa-envelope
-    link: mailto:your.email@example.com
+    link: mailto:tarunkumar@mtarunk.site
     name: Email
 
 # -----------------------------------------------------------------------------
