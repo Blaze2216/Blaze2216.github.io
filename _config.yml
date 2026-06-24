@@ -1,0 +1,137 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: Your Name
+first_name: Your
+last_name: Name
+greeting: "Hi, I'm Your Name!"
+tagline: "Just a programmer"
+email: your-email@example.com
+
+description: >- # the ">" symbol means to ignore newlines
+  Personal blog - A programmer sharing thoughts on software development,
+  Python, and web technologies.
+
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
+url: "https://alihtt.github.io" # the base hostname & protocol for your site
+baseurl: "/al-minimal" # the subpath of your site, e.g. /blog/. Leave blank for root
+
+# -----------------------------------------------------------------------------
+# About
+# -----------------------------------------------------------------------------
+
+about: >-
+  I'm a programmer passionate about Python & Django.
+  I build efficient web applications and share my knowledge through this blog.
+
+# -----------------------------------------------------------------------------
+# Social Media
+# -----------------------------------------------------------------------------
+
+social:
+  - icon: fa-brands fa-github
+    link: https://github.com/yourusername
+    name: GitHub
+  - icon: fa-brands fa-x-twitter
+    link: https://twitter.com/your_twitter
+    name: Twitter / X
+  - icon: fa-brands fa-linkedin
+    link: https://linkedin.com/in/your_linkedin
+    name: LinkedIn
+  - icon: fa-brands fa-telegram
+    link: https://t.me/your_telegram
+    name: Telegram
+  - icon: fa-solid fa-envelope
+    link: mailto:your.email@example.com
+    name: Email
+
+# -----------------------------------------------------------------------------
+# Navigation
+# -----------------------------------------------------------------------------
+
+navigation:
+  - title: Articles
+    url: /articles
+  - title: Tags
+    url: /tags
+  - title: Projects
+    url: /projects
+  - title: About
+    url: /about
+
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
+
+google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+# disqus_shortname: # your disqus shortname (uncomment to enable comments)
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+# Pagination (GitHub Pages compatible)
+paginate: 10
+paginate_path: "/articles/page/:num/"
+
+# Permalinks (clean URLs without .html)
+permalink: /articles/:title/
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Markdown and syntax highlight
+markdown: kramdown
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Includes & excludes
+exclude:
+  - docs/
+  - node_modules/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - .gitignore
+
+# Performance - HTML Compression
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
