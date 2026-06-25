@@ -1,7 +1,24 @@
----
-permalink: /robots.txt
----
-User-agent: *
-Disallow:
+# www.robotstxt.org/
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+# Allow all search engines to crawl the site
+User-agent: *
+
+# Block access to Jekyll system and configuration directories
+Disallow: /_layouts/
+Disallow: /_includes/
+Disallow: /_site/
+Disallow: /_posts/
+Disallow: /_plugins/
+Disallow: /vendor/
+Disallow: /.git/
+Disallow: /.github/
+
+# Block search engines from indexing asset folders that contain no real text content
+Disallow: /assets/css/
+Disallow: /assets/js/
+
+# Allow everything else (your markdown pages, posts, and root directories)
+Allow: /
+
+# Link directly to your XML sitemap for faster indexing
+Sitemap: https://www.mtarunk.site/sitemap.xml
