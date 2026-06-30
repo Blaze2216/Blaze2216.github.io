@@ -3,7 +3,6 @@ layout: post
 title: "Overwhelmed due to long hiatus"
 date: 2026-06-25 10:00:00 +0000
 tags: [dailylife]
-toc: true
 ---
 
 I was actually attacked by the **Hepatitis A Virus** in the mid of May, that forced me to leave the college. Actually it was very serious this time. I don't know how I got caught by that virus. As I was doing fine with my routine. My life was flowing very well, waking up early, not eating junks, everyday 5 pm workout, sleeping early. Everything was fine. I only ate hostel food, maybe this was my bad luck.
